@@ -2,6 +2,8 @@ import streamlit as st
 import google.generativeai as genai
 from dotenv import load_dotenv
 import os
+import os
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = ""
 
 # Load environment variables
 load_dotenv()
